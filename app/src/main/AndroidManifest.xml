@@ -13,6 +13,13 @@
         android:theme="@style/Theme.Appzheimer_Ciclo_4_Grupo_3_Equipo_3"
         tools:targetApi="31">
         <activity
+            android:name=".Splash"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Editar_APP"
             android:exported="false">
             <meta-data
@@ -84,6 +91,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:theme="@style/splashinicio"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
