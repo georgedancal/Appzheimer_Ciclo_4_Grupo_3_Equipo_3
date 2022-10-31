@@ -4,6 +4,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Registrese">
+    tools:context=".Registrese"
+    android:background="#5f9ea0">
+
+    <TextView
+        android:id="@+id/txtRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro"
+        android:textColor="#FFFCFC"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtNombre"
+        android:layout_width="357dp"
+        android:layout_height="51dp"
+        android:hint="Nombre"
+        android:textColor="#FFFDFD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegistro"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="355dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="355dp"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:hint="Nombre de Usuario"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="349dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColor="#FFFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtUsername"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="174dp"
+        android:layout_height="59dp"
+        android:background="#ff7f24"
+        android:text="Resgistrarse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
