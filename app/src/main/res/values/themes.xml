@@ -22,8 +22,4 @@
         <item name="android:textSize">20dp</item>
     </style>
 
-    <style name="splashinicio"parent="Theme.Appzheimer_Ciclo_4_Grupo_3_Equipo_3">
-      <item name="android:windowBackground">@drawable/splash</item>
-
-    </style>
 </resources>
