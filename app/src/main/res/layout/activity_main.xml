@@ -31,39 +31,43 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
-    <TextView
-        style="@style/botones"
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
+    <Button
+        android:id="@+id/btsomos"
+        android:layout_width="236dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="60dp"
+        android:background="#E6FFFFFF"
         android:text="Quienes Somos"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.226"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.26" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-    <TextView
-        style="@style/botones"
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="176dp"
+    <Button
+        android:id="@+id/btIngreso"
+        android:layout_width="119dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/white"
+        android:backgroundTint="#E6FFFFFF"
         android:text="Ingreso"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.403" />
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btsomos" />
 
-    <TextView
-        style="@style/botones"
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="168dp"
+    <Button
+        android:id="@+id/btRegistro"
+        android:layout_width="135dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="56dp"
+        android:background="#E6FFFFFF"
         android:text="Registro"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.779"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btIngreso" />
 </androidx.constraintlayout.widget.ConstraintLayout>
